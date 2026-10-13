@@ -1,0 +1,98 @@
+{
+  "irVersion": 1,
+  "route": "/blog/:slug",
+  "sourcePath": "src/pages/blog/[...slug].astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "33bd9be7",
+        "kind": "component",
+        "name": "PostLayout",
+        "attributes": [
+          {
+            "kind": "expression",
+            "name": "title",
+            "value": {
+              "en": "post.data.title"
+            },
+            "raw": ""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "post.data.description"
+            },
+            "raw": ""
+          },
+          {
+            "kind": "expression",
+            "name": "date",
+            "value": {
+              "en": "post.data.date"
+            },
+            "raw": ""
+          },
+          {
+            "kind": "expression",
+            "name": "author",
+            "value": {
+              "en": "post.data.author"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "f1b01f68",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "a27a8bcd",
+            "kind": "component",
+            "name": "Content",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "bd229af6",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import { getCollection, render } from 'astro:content';\nimport PostLayout from '../../layouts/PostLayout.astro';\n\nexport async function getStaticPaths() {\n  const posts = await getCollection('blog', ({ data }) => !data.draft);\n  return posts.map((post) => ({\n    params: { slug: post.id },\n    props: { post },\n  }));\n}\n\nconst { post } = Astro.props;\nconst { Content } = await render(post);"
+}

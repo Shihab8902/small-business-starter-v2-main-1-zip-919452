@@ -1,0 +1,722 @@
+{
+  "irVersion": 1,
+  "route": "/about",
+  "sourcePath": "src/pages/about.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "924adab4",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "static",
+            "name": "title",
+            "value": {
+              "en": "About Us"
+            },
+            "raw": "\"About Us\""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "`Learn about ${brand.name} — our story, team, and commitment to quality service.`"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "af4502d2",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "261c21c5",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f104a284",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "0023a321",
+            "kind": "component",
+            "name": "Banner",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "title",
+                "value": {
+                  "en": "About Us"
+                },
+                "raw": "\"About Us\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "6168f47e",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "c9c09d1a",
+            "kind": "fragment",
+            "reason": "comment",
+            "source": " Story ",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "850655b0",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "4399abc8",
+            "kind": "element",
+            "tag": "section",
+            "void": false,
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "class",
+                "value": {
+                  "en": "py-section"
+                },
+                "raw": "\"py-section\""
+              }
+            ],
+            "children": [
+              {
+                "id": "87b22460",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n    "
+                },
+                "children": []
+              },
+              {
+                "id": "49ab8d42",
+                "kind": "element",
+                "tag": "div",
+                "void": false,
+                "attributes": [
+                  {
+                    "kind": "static",
+                    "name": "class",
+                    "value": {
+                      "en": "mx-auto grid max-w-site grid-cols-1 items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14"
+                    },
+                    "raw": "\"mx-auto grid max-w-site grid-cols-1 items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14\""
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "6ced8f45",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "7906760d",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "overflow-hidden rounded-lg shadow-lg"
+                        },
+                        "raw": "\"overflow-hidden rounded-lg shadow-lg\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "2d0a589c",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "8f8f5799",
+                        "kind": "component",
+                        "name": "Image",
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "src",
+                            "value": {
+                              "en": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80"
+                            },
+                            "raw": "\"https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80\""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "alt",
+                            "value": {
+                              "en": "Our team planning a project together"
+                            },
+                            "raw": "\"Our team planning a project together\""
+                          },
+                          {
+                            "kind": "expression",
+                            "name": "width",
+                            "value": {
+                              "en": "800"
+                            },
+                            "raw": ""
+                          },
+                          {
+                            "kind": "expression",
+                            "name": "height",
+                            "value": {
+                              "en": "600"
+                            },
+                            "raw": ""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "loading",
+                            "value": {
+                              "en": "lazy"
+                            },
+                            "raw": "\"lazy\""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "size-full object-cover"
+                            },
+                            "raw": "\"size-full object-cover\""
+                          }
+                        ],
+                        "children": []
+                      },
+                      {
+                        "id": "54c8d5ea",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "08cb8d27",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "c47d9afb",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "space-y-5"
+                        },
+                        "raw": "\"space-y-5\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "aac5e28d",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "dbaf3735",
+                        "kind": "element",
+                        "tag": "span",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "text-topper font-bold uppercase tracking-widest text-accent"
+                            },
+                            "raw": "\"text-topper font-bold uppercase tracking-widest text-accent\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "a7cf9b10",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "Our Story"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "52d6ff0f",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "31cd81a3",
+                        "kind": "element",
+                        "tag": "h2",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "font-heading text-h2 font-bold uppercase text-text"
+                            },
+                            "raw": "\"font-heading text-h2 font-bold uppercase text-text\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "ecb9a22f",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "Built on trust, driven by quality"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "c237adb1",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "ebcaee82",
+                        "kind": "fragment",
+                        "reason": "map-loop",
+                        "source": "{about.story.map((paragraph) => (\n          <p class=\"text-text-muted leading-relaxed\">{paragraph}</p>\n        ))}",
+                        "attributes": [],
+                        "children": []
+                      },
+                      {
+                        "id": "b0595f63",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3896bb29",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n    "
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "492d7fae",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n  "
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "179f4fca",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "ce586309",
+            "kind": "fragment",
+            "reason": "comment",
+            "source": " Team ",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "7b83b289",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "6c564bbd",
+            "kind": "element",
+            "tag": "section",
+            "void": false,
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "class",
+                "value": {
+                  "en": "bg-surface py-section"
+                },
+                "raw": "\"bg-surface py-section\""
+              }
+            ],
+            "children": [
+              {
+                "id": "4028bb9f",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n    "
+                },
+                "children": []
+              },
+              {
+                "id": "06baf649",
+                "kind": "element",
+                "tag": "div",
+                "void": false,
+                "attributes": [
+                  {
+                    "kind": "static",
+                    "name": "class",
+                    "value": {
+                      "en": "mx-auto max-w-site px-4 sm:px-6"
+                    },
+                    "raw": "\"mx-auto max-w-site px-4 sm:px-6\""
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "eaf707c3",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "5cc00495",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "mx-auto mb-10 max-w-2xl text-center"
+                        },
+                        "raw": "\"mx-auto mb-10 max-w-2xl text-center\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "7db12f46",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "e47607ea",
+                        "kind": "element",
+                        "tag": "span",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "text-topper font-bold uppercase tracking-widest text-accent"
+                            },
+                            "raw": "\"text-topper font-bold uppercase tracking-widest text-accent\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "f0a2b900",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "Our Team"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "88a16378",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "df69fbb8",
+                        "kind": "element",
+                        "tag": "h2",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "mt-2 font-heading text-h2 font-bold uppercase text-text"
+                            },
+                            "raw": "\"mt-2 font-heading text-h2 font-bold uppercase text-text\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "f24817c6",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "Meet the crew"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "7c31af1a",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "deda3e91",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "1f118289",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+                        },
+                        "raw": "\"grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "bcbcabaf",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "b0429834",
+                        "kind": "fragment",
+                        "reason": "map-loop",
+                        "source": "{about.team.map(({ name, role, image }) => (\n          <div class=\"overflow-hidden rounded-lg bg-background shadow-sm\">\n            <Image src={image} alt={name} width={400} height={400} loading=\"lazy\" class=\"aspect-square w-full object-cover\"></Image>\n            <div class=\"p-5\">\n              <h3 class=\"font-heading text-lg font-semibold text-text\">{name}</h3>\n              <p class=\"text-sm text-text-muted\">{role}</p>\n            </div>\n          </div>\n        ))}",
+                        "attributes": [],
+                        "children": []
+                      },
+                      {
+                        "id": "6aa1f52d",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3b8b726f",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n    "
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "0aac035d",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n  "
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "fd9e82db",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "69d834ee",
+            "kind": "component",
+            "name": "CTA",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "012a50a5",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "e5d3af3a",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f8d5f287",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from '../layouts/BaseLayout.astro';\nimport Header from '../components/Header.astro';\nimport Footer from '../components/Footer.astro';\nimport Banner from '../components/Banner.astro';\nimport CTA from '../components/CTA.astro';\nimport { Image } from 'astro:assets';\nimport { brand } from '../config/brand';\nimport { siteData } from '../data/siteData';\n\nconst { about } = siteData;"
+}

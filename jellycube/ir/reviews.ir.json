@@ -1,0 +1,398 @@
+{
+  "irVersion": 1,
+  "route": "/reviews",
+  "sourcePath": "src/pages/reviews.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "904ad78e",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "static",
+            "name": "title",
+            "value": {
+              "en": "Reviews"
+            },
+            "raw": "\"Reviews\""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "`Read reviews and testimonials from ${brand.name} customers. See why homeowners trust us for their projects.`"
+            },
+            "raw": ""
+          },
+          {
+            "kind": "expression",
+            "name": "schema",
+            "value": {
+              "en": "{\n    '@context': 'https://schema.org',\n    '@type': 'LocalBusiness',\n    name: siteData.name,\n    aggregateRating: {\n      '@type': 'AggregateRating',\n      ratingValue: '5',\n      reviewCount: String(reviews.length),\n      bestRating: '5',\n    },\n  }"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "70ce05ef",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "c1c80d98",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "43c59b6d",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "85643a74",
+            "kind": "component",
+            "name": "Banner",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "title",
+                "value": {
+                  "en": "Customer Reviews"
+                },
+                "raw": "\"Customer Reviews\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "20399b43",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "514f04d7",
+            "kind": "element",
+            "tag": "section",
+            "void": false,
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "class",
+                "value": {
+                  "en": "py-section"
+                },
+                "raw": "\"py-section\""
+              }
+            ],
+            "children": [
+              {
+                "id": "2f0644fa",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n    "
+                },
+                "children": []
+              },
+              {
+                "id": "7c19c430",
+                "kind": "element",
+                "tag": "div",
+                "void": false,
+                "attributes": [
+                  {
+                    "kind": "static",
+                    "name": "class",
+                    "value": {
+                      "en": "mx-auto max-w-site px-4 sm:px-6"
+                    },
+                    "raw": "\"mx-auto max-w-site px-4 sm:px-6\""
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "d8dead6f",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "5389d119",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "mx-auto mb-10 max-w-2xl text-center lg:mb-14"
+                        },
+                        "raw": "\"mx-auto mb-10 max-w-2xl text-center lg:mb-14\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "f5445165",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "9c820429",
+                        "kind": "element",
+                        "tag": "h2",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "font-heading text-h2 font-bold uppercase text-text"
+                            },
+                            "raw": "\"font-heading text-h2 font-bold uppercase text-text\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "2951978c",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "What people are saying"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "675f3a47",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "309c0f99",
+                        "kind": "element",
+                        "tag": "p",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "mt-3 text-text-muted leading-relaxed"
+                            },
+                            "raw": "\"mt-3 text-text-muted leading-relaxed\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "d803a6aa",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "\n          Don&rsquo;t take our word for it — hear from the homeowners we&rsquo;ve helped.\n        "
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "94ae6c49",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "abd642ed",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "97b357c5",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+                        },
+                        "raw": "\"grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "563e881c",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "fce5a9c6",
+                        "kind": "fragment",
+                        "reason": "map-loop",
+                        "source": "{reviews.map(({ quote, name, location, rating = 5 }) => (\n          <div class=\"flex flex-col rounded-lg border border-border bg-background p-6 shadow-sm\">\n            <div class=\"mb-4 flex gap-0.5\" role=\"img\" aria-label={`Rated ${rating} out of 5 stars`}>\n              {Array.from({ length: 5 }).map((_, i) => (\n                <svg class:list={['size-5', i < rating ? 'text-accent' : 'text-border']} fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\">\n                  <path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\"></path>\n                </svg>\n              ))}\n            </div>\n            <blockquote class=\"flex-1 text-text-muted leading-relaxed\">\n              &ldquo;{quote}&rdquo;\n            </blockquote>\n            <div class=\"mt-4 border-t border-border pt-4\">\n              <p class=\"font-semibold text-text\">{name}</p>\n              <p class=\"text-sm text-text-muted\">{location}</p>\n            </div>\n          </div>\n        ))}",
+                        "attributes": [],
+                        "children": []
+                      },
+                      {
+                        "id": "7dfd056a",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "884a42c3",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n    "
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7a9fda2c",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n  "
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "141cd211",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "88388000",
+            "kind": "component",
+            "name": "CTA",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "20793e77",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "72d6bb2c",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "30931216",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from '../layouts/BaseLayout.astro';\nimport Header from '../components/Header.astro';\nimport Footer from '../components/Footer.astro';\nimport Banner from '../components/Banner.astro';\nimport CTA from '../components/CTA.astro';\nimport { brand } from '../config/brand';\nimport { siteData } from '../data/siteData';\n\nconst { reviews } = siteData;"
+}

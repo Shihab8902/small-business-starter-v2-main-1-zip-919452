@@ -1,0 +1,94 @@
+{
+  "irVersion": 1,
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "codegenVersion": 2,
+  "components": [
+    "About",
+    "Banner",
+    "BaseLayout",
+    "CTA",
+    "Footer",
+    "Gallery",
+    "Header",
+    "Hero",
+    "Image",
+    "LegalPage",
+    "Reviews",
+    "Services",
+    "TrustBar"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "sourcePath": "src/pages/index.astro",
+      "status": "converted",
+      "editability": 100,
+      "file": "jellycube/ir/index.ir.json"
+    },
+    {
+      "route": "/about",
+      "sourcePath": "src/pages/about.astro",
+      "status": "converted",
+      "editability": 93.1,
+      "file": "jellycube/ir/about.ir.json"
+    },
+    {
+      "route": "/blog",
+      "sourcePath": "src/pages/blog/index.astro",
+      "status": "converted",
+      "editability": 95,
+      "file": "jellycube/ir/blog.ir.json"
+    },
+    {
+      "route": "/contact",
+      "sourcePath": "src/pages/contact/index.astro",
+      "status": "converted",
+      "editability": 89.5,
+      "file": "jellycube/ir/contact.ir.json"
+    },
+    {
+      "route": "/contact/success",
+      "sourcePath": "src/pages/contact/success.astro",
+      "status": "converted",
+      "editability": 100,
+      "file": "jellycube/ir/contact-success.ir.json"
+    },
+    {
+      "route": "/privacy",
+      "sourcePath": "src/pages/privacy.astro",
+      "status": "converted",
+      "editability": 100,
+      "file": "jellycube/ir/privacy.ir.json"
+    },
+    {
+      "route": "/reviews",
+      "sourcePath": "src/pages/reviews.astro",
+      "status": "converted",
+      "editability": 96.9,
+      "file": "jellycube/ir/reviews.ir.json"
+    },
+    {
+      "route": "/services",
+      "sourcePath": "src/pages/services.astro",
+      "status": "converted",
+      "editability": 96.9,
+      "file": "jellycube/ir/services.ir.json"
+    },
+    {
+      "route": "/terms",
+      "sourcePath": "src/pages/terms.astro",
+      "status": "converted",
+      "editability": 100,
+      "file": "jellycube/ir/terms.ir.json"
+    }
+  ],
+  "runtime": {
+    "package": "@jellycube/runtime",
+    "version": "^0.1.0"
+  }
+}

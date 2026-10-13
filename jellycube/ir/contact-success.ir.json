@@ -1,0 +1,458 @@
+{
+  "irVersion": 1,
+  "route": "/contact/success",
+  "sourcePath": "src/pages/contact/success.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "051a443d",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "static",
+            "name": "title",
+            "value": {
+              "en": "Message Sent"
+            },
+            "raw": "\"Message Sent\""
+          },
+          {
+            "kind": "static",
+            "name": "description",
+            "value": {
+              "en": "Your message has been received."
+            },
+            "raw": "\"Your message has been received.\""
+          }
+        ],
+        "children": [
+          {
+            "id": "71154029",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "cd71730e",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d615d1fb",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "9a2d4dab",
+            "kind": "element",
+            "tag": "section",
+            "void": false,
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "class",
+                "value": {
+                  "en": "flex min-h-[60vh] items-center justify-center px-4"
+                },
+                "raw": "\"flex min-h-[60vh] items-center justify-center px-4\""
+              }
+            ],
+            "children": [
+              {
+                "id": "6f5e8740",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n    "
+                },
+                "children": []
+              },
+              {
+                "id": "ad48f46e",
+                "kind": "element",
+                "tag": "div",
+                "void": false,
+                "attributes": [
+                  {
+                    "kind": "static",
+                    "name": "class",
+                    "value": {
+                      "en": "mx-auto max-w-md text-center"
+                    },
+                    "raw": "\"mx-auto max-w-md text-center\""
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "daaf862d",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "97390fa5",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "mx-auto mb-6 flex size-16 items-center justify-center rounded-full bg-accent/10"
+                        },
+                        "raw": "\"mx-auto mb-6 flex size-16 items-center justify-center rounded-full bg-accent/10\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "36def9ab",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "3d7721a3",
+                        "kind": "element",
+                        "tag": "svg",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "size-8 text-accent"
+                            },
+                            "raw": "\"size-8 text-accent\""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "fill",
+                            "value": {
+                              "en": "none"
+                            },
+                            "raw": "\"none\""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "stroke",
+                            "value": {
+                              "en": "currentColor"
+                            },
+                            "raw": "\"currentColor\""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "viewBox",
+                            "value": {
+                              "en": "0 0 24 24"
+                            },
+                            "raw": "\"0 0 24 24\""
+                          },
+                          {
+                            "kind": "static",
+                            "name": "aria-hidden",
+                            "value": {
+                              "en": "true"
+                            },
+                            "raw": "\"true\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "2e324a3f",
+                            "kind": "text",
+                            "whitespaceOnly": true,
+                            "value": {
+                              "en": "\n          "
+                            },
+                            "children": []
+                          },
+                          {
+                            "id": "6f6df66a",
+                            "kind": "element",
+                            "tag": "path",
+                            "void": false,
+                            "attributes": [
+                              {
+                                "kind": "static",
+                                "name": "stroke-linecap",
+                                "value": {
+                                  "en": "round"
+                                },
+                                "raw": "\"round\""
+                              },
+                              {
+                                "kind": "static",
+                                "name": "stroke-linejoin",
+                                "value": {
+                                  "en": "round"
+                                },
+                                "raw": "\"round\""
+                              },
+                              {
+                                "kind": "static",
+                                "name": "stroke-width",
+                                "value": {
+                                  "en": "2"
+                                },
+                                "raw": "\"2\""
+                              },
+                              {
+                                "kind": "static",
+                                "name": "d",
+                                "value": {
+                                  "en": "M5 13l4 4L19 7"
+                                },
+                                "raw": "\"M5 13l4 4L19 7\""
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "id": "de14297d",
+                            "kind": "text",
+                            "whitespaceOnly": true,
+                            "value": {
+                              "en": "\n        "
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "504faed9",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2cca3caf",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "5afda001",
+                    "kind": "element",
+                    "tag": "h1",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "font-heading text-h1 font-bold uppercase text-text"
+                        },
+                        "raw": "\"font-heading text-h1 font-bold uppercase text-text\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "cc7abe51",
+                        "kind": "text",
+                        "whitespaceOnly": false,
+                        "value": {
+                          "en": "\n        Message Received\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "28cfb2d1",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "8eeeaaeb",
+                    "kind": "element",
+                    "tag": "p",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "mt-4 text-text-muted leading-relaxed"
+                        },
+                        "raw": "\"mt-4 text-text-muted leading-relaxed\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "ce95959e",
+                        "kind": "text",
+                        "whitespaceOnly": false,
+                        "value": {
+                          "en": "\n        Thank you for reaching out. We'll get back to you within one business\n        day.\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "8a4b0a03",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "e20e04c1",
+                    "kind": "element",
+                    "tag": "a",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "href",
+                        "value": {
+                          "en": "/"
+                        },
+                        "raw": "\"/\""
+                      },
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "mt-8 inline-flex min-h-11 items-center justify-center rounded-md bg-primary px-8 py-3 text-base font-bold text-primary-fg shadow-sm transition-opacity hover:opacity-90"
+                        },
+                        "raw": "\"mt-8 inline-flex min-h-11 items-center justify-center rounded-md bg-primary px-8 py-3 text-base font-bold text-primary-fg shadow-sm transition-opacity hover:opacity-90\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "5f06ef1b",
+                        "kind": "text",
+                        "whitespaceOnly": false,
+                        "value": {
+                          "en": "\n        Back to Home\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c1b41d15",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n    "
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "21fc7e0e",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n  "
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "a56c1445",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "431d1cde",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "414a1227",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from \"../../layouts/BaseLayout.astro\";\nimport Header from \"../../components/Header.astro\";\nimport Footer from \"../../components/Footer.astro\";\nimport { brand } from \"../../config/brand\";"
+}

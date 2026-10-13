@@ -1,0 +1,236 @@
+{
+  "irVersion": 1,
+  "route": "/",
+  "sourcePath": "src/pages/index.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "884acaf6",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "expression",
+            "name": "title",
+            "value": {
+              "en": "brand.name"
+            },
+            "raw": ""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "brand.description"
+            },
+            "raw": ""
+          },
+          {
+            "kind": "expression",
+            "name": "schema",
+            "value": {
+              "en": "{\n    '@context': 'https://schema.org',\n    '@type': 'LocalBusiness',\n    name: siteData.name,\n    telephone: siteData.phoneForTel,\n    email: siteData.email,\n    address: {\n      '@type': 'PostalAddress',\n      streetAddress: siteData.address.lineOne,\n      addressLocality: siteData.address.city,\n      addressRegion: siteData.address.state,\n      postalCode: siteData.address.zip,\n      addressCountry: siteData.address.country,\n    },\n    url: siteData.url,\n  }"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "3a9e1fc0",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "75040f1f",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ed3c168e",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "c2984453",
+            "kind": "component",
+            "name": "Hero",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "edb56e14",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "c67d5453",
+            "kind": "component",
+            "name": "TrustBar",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "2daf0522",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "d4dfefeb",
+            "kind": "component",
+            "name": "Services",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "76b95bb8",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "e8bc8e71",
+            "kind": "component",
+            "name": "About",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "c153941b",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "917a6280",
+            "kind": "component",
+            "name": "Reviews",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "3b29ffc9",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "246b0f1c",
+            "kind": "component",
+            "name": "Gallery",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "0ddacdc7",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "91ede28e",
+            "kind": "component",
+            "name": "CTA",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "9bbfe4e5",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "d4aee61a",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "0b1f2e93",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from '../layouts/BaseLayout.astro';\nimport Header from '../components/Header.astro';\nimport Footer from '../components/Footer.astro';\nimport Hero from '../components/Hero.astro';\nimport TrustBar from '../components/TrustBar.astro';\nimport Services from '../components/Services.astro';\nimport About from '../components/About.astro';\nimport Reviews from '../components/Reviews.astro';\nimport Gallery from '../components/Gallery.astro';\nimport CTA from '../components/CTA.astro';\nimport { brand } from '../config/brand';\nimport { siteData } from '../data/siteData';"
+}

@@ -1,0 +1,174 @@
+{
+  "irVersion": 1,
+  "route": "/terms",
+  "sourcePath": "src/pages/terms.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "f71a2e33",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "static",
+            "name": "title",
+            "value": {
+              "en": "Terms of Service"
+            },
+            "raw": "\"Terms of Service\""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "`Terms of Service for ${brand.name}. Review the terms that govern use of our website and services.`"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "2251cbb5",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "8aec6f3a",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "7788db57",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "1cb78c72",
+            "kind": "component",
+            "name": "Banner",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "title",
+                "value": {
+                  "en": "Terms of Service"
+                },
+                "raw": "\"Terms of Service\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "466d5999",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "f9eb8054",
+            "kind": "component",
+            "name": "LegalPage",
+            "attributes": [
+              {
+                "kind": "expression",
+                "name": "effectiveDate",
+                "value": {
+                  "en": "termsOfService.effectiveDate"
+                },
+                "raw": ""
+              },
+              {
+                "kind": "expression",
+                "name": "sections",
+                "value": {
+                  "en": "termsOfService.sections"
+                },
+                "raw": ""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "00cae66b",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "8076c438",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "1fcaf34d",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from '../layouts/BaseLayout.astro';\nimport Header from '../components/Header.astro';\nimport Footer from '../components/Footer.astro';\nimport Banner from '../components/Banner.astro';\nimport LegalPage from '../components/LegalPage.astro';\nimport { brand } from '../config/brand';\nimport { termsOfService } from '../data/terms';"
+}

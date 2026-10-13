@@ -1,0 +1,390 @@
+{
+  "irVersion": 1,
+  "route": "/services",
+  "sourcePath": "src/pages/services.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "904ad78e",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "static",
+            "name": "title",
+            "value": {
+              "en": "Services"
+            },
+            "raw": "\"Services\""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "`Explore the full range of services offered by ${brand.name}. From repairs to remodeling, we do it all.`"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "70ce05ef",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "c1c80d98",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "43c59b6d",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "85643a74",
+            "kind": "component",
+            "name": "Banner",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "title",
+                "value": {
+                  "en": "Our Services"
+                },
+                "raw": "\"Our Services\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "20399b43",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "514f04d7",
+            "kind": "element",
+            "tag": "section",
+            "void": false,
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "class",
+                "value": {
+                  "en": "py-section"
+                },
+                "raw": "\"py-section\""
+              }
+            ],
+            "children": [
+              {
+                "id": "2f0644fa",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n    "
+                },
+                "children": []
+              },
+              {
+                "id": "7c19c430",
+                "kind": "element",
+                "tag": "div",
+                "void": false,
+                "attributes": [
+                  {
+                    "kind": "static",
+                    "name": "class",
+                    "value": {
+                      "en": "mx-auto max-w-site px-4 sm:px-6"
+                    },
+                    "raw": "\"mx-auto max-w-site px-4 sm:px-6\""
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "d8dead6f",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "5389d119",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "mx-auto mb-10 max-w-2xl text-center lg:mb-14"
+                        },
+                        "raw": "\"mx-auto mb-10 max-w-2xl text-center lg:mb-14\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "f5445165",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "9c820429",
+                        "kind": "element",
+                        "tag": "h2",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "font-heading text-h2 font-bold uppercase text-text"
+                            },
+                            "raw": "\"font-heading text-h2 font-bold uppercase text-text\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "a2f72ed8",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "What we can do for you"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "675f3a47",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "309c0f99",
+                        "kind": "element",
+                        "tag": "p",
+                        "void": false,
+                        "attributes": [
+                          {
+                            "kind": "static",
+                            "name": "class",
+                            "value": {
+                              "en": "mt-3 text-text-muted leading-relaxed"
+                            },
+                            "raw": "\"mt-3 text-text-muted leading-relaxed\""
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "1bb72aba",
+                            "kind": "text",
+                            "whitespaceOnly": false,
+                            "value": {
+                              "en": "\n          No job is too big or too small. Here&rsquo;s a look at the services we offer.\n        "
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "94ae6c49",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "abd642ed",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "97b357c5",
+                    "kind": "element",
+                    "tag": "div",
+                    "void": false,
+                    "attributes": [
+                      {
+                        "kind": "static",
+                        "name": "class",
+                        "value": {
+                          "en": "grid grid-cols-1 gap-8 md:grid-cols-2"
+                        },
+                        "raw": "\"grid grid-cols-1 gap-8 md:grid-cols-2\""
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "563e881c",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n        "
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "389f041d",
+                        "kind": "fragment",
+                        "reason": "map-loop",
+                        "source": "{services.map((service) => (\n          <div class=\"flex gap-5 rounded-lg border border-border bg-background p-6 shadow-sm\">\n            <div>\n              <h3 class=\"font-heading text-h3 font-semibold text-text\">{service.title}</h3>\n              <p class=\"mt-2 text-text-muted leading-relaxed\">{service.description}</p>\n            </div>\n          </div>\n        ))}",
+                        "attributes": [],
+                        "children": []
+                      },
+                      {
+                        "id": "7dfd056a",
+                        "kind": "text",
+                        "whitespaceOnly": true,
+                        "value": {
+                          "en": "\n      "
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "884a42c3",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n    "
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7a9fda2c",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n  "
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "141cd211",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "88388000",
+            "kind": "component",
+            "name": "CTA",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "20793e77",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "72d6bb2c",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "30931216",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from '../layouts/BaseLayout.astro';\nimport Header from '../components/Header.astro';\nimport Footer from '../components/Footer.astro';\nimport Banner from '../components/Banner.astro';\nimport CTA from '../components/CTA.astro';\nimport { brand } from '../config/brand';\nimport { siteData } from '../data/siteData';\n\nconst { services } = siteData;"
+}

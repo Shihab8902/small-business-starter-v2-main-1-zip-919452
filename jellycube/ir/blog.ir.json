@@ -1,0 +1,246 @@
+{
+  "irVersion": 1,
+  "route": "/blog",
+  "sourcePath": "src/pages/blog/index.astro",
+  "locales": {
+    "available": [
+      "en"
+    ],
+    "default": "en"
+  },
+  "status": "converted",
+  "root": {
+    "id": "bbf603ed",
+    "kind": "element",
+    "tag": "html",
+    "void": false,
+    "attributes": [],
+    "children": [
+      {
+        "id": "904ad78e",
+        "kind": "component",
+        "name": "BaseLayout",
+        "attributes": [
+          {
+            "kind": "static",
+            "name": "title",
+            "value": {
+              "en": "Blog"
+            },
+            "raw": "\"Blog\""
+          },
+          {
+            "kind": "expression",
+            "name": "description",
+            "value": {
+              "en": "`Tips, guides, and news from ${brand.name}. Stay informed about home maintenance and improvement.`"
+            },
+            "raw": ""
+          }
+        ],
+        "children": [
+          {
+            "id": "70ce05ef",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "c1c80d98",
+            "kind": "component",
+            "name": "Header",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "header"
+                },
+                "raw": "\"header\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "43c59b6d",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "85643a74",
+            "kind": "component",
+            "name": "Banner",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "title",
+                "value": {
+                  "en": "Blog"
+                },
+                "raw": "\"Blog\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "20399b43",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "514f04d7",
+            "kind": "element",
+            "tag": "section",
+            "void": false,
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "class",
+                "value": {
+                  "en": "py-section"
+                },
+                "raw": "\"py-section\""
+              }
+            ],
+            "children": [
+              {
+                "id": "2f0644fa",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n    "
+                },
+                "children": []
+              },
+              {
+                "id": "8219cda2",
+                "kind": "element",
+                "tag": "div",
+                "void": false,
+                "attributes": [
+                  {
+                    "kind": "static",
+                    "name": "class",
+                    "value": {
+                      "en": "mx-auto max-w-site px-4 sm:px-6"
+                    },
+                    "raw": "\"mx-auto max-w-site px-4 sm:px-6\""
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "2de96a17",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n      "
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "06962dca",
+                    "kind": "fragment",
+                    "reason": "map-loop",
+                    "source": "{posts.length === 0 ? (\n        <p class=\"text-center text-text-muted\">No posts yet. Check back soon!</p>\n      ) : (\n        <div class=\"grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3\">\n          {posts.map((post) => {\n            const formattedDate = post.data.date.toLocaleDateString('en-US', {\n              year: 'numeric',\n              month: 'long',\n              day: 'numeric',\n            });\n            return (\n              <article class=\"group flex flex-col overflow-hidden rounded-lg border border-border bg-background shadow-sm transition-shadow hover:shadow-md\">\n                <div class=\"flex flex-1 flex-col p-6\">\n                  <div class=\"flex items-center gap-2 text-sm text-text-muted\">\n                    <time datetime={post.data.date.toISOString()}>{formattedDate}</time>\n                    {post.data.tags.length > 0 && (\n                      <>\n                        <span aria-hidden=\"true\">&bull;</span>\n                        <span>{post.data.tags[0]}</span>\n                      </>\n                    )}\n                  </div>\n                  <h2 class=\"mt-3 font-heading text-h3 font-semibold text-text group-hover:text-primary transition-colors\">\n                    <a href={`/blog/${post.id}`} class=\"after:absolute after:inset-0 relative\">\n                      {post.data.title}\n                    </a>\n                  </h2>\n                  <p class=\"mt-2 flex-1 text-sm leading-relaxed text-text-muted\">\n                    {post.data.description}\n                  </p>\n                  <span class=\"mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary\">\n                    Read more\n                    <svg class=\"size-4 transition-transform group-hover:translate-x-0.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n                      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"></path>\n                    </svg>\n                  </span>\n                </div>\n              </article>\n            );\n          })}\n        </div>\n      )}",
+                    "attributes": [],
+                    "children": []
+                  },
+                  {
+                    "id": "2dc97a75",
+                    "kind": "text",
+                    "whitespaceOnly": true,
+                    "value": {
+                      "en": "\n    "
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7a9fda2c",
+                "kind": "text",
+                "whitespaceOnly": true,
+                "value": {
+                  "en": "\n  "
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "141cd211",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "88388000",
+            "kind": "component",
+            "name": "CTA",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "id": "20793e77",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n\n  "
+            },
+            "children": []
+          },
+          {
+            "id": "72d6bb2c",
+            "kind": "component",
+            "name": "Footer",
+            "attributes": [
+              {
+                "kind": "static",
+                "name": "slot",
+                "value": {
+                  "en": "footer"
+                },
+                "raw": "\"footer\""
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "30931216",
+            "kind": "text",
+            "whitespaceOnly": true,
+            "value": {
+              "en": "\n"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "9eb7f345",
+        "kind": "text",
+        "whitespaceOnly": true,
+        "value": {
+          "en": "\n"
+        },
+        "children": []
+      }
+    ]
+  },
+  "doctype": "<!DOCTYPE html>",
+  "frontmatter": "import BaseLayout from '../../layouts/BaseLayout.astro';\nimport Header from '../../components/Header.astro';\nimport Footer from '../../components/Footer.astro';\nimport Banner from '../../components/Banner.astro';\nimport CTA from '../../components/CTA.astro';\nimport { getCollection } from 'astro:content';\nimport { brand } from '../../config/brand';\n\nconst posts = (await getCollection('blog', ({ data }) => !data.draft))\n  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());"
+}
